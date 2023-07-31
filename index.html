@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/index.css"">
+  <link rel=" stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+
+
+</head>
+
+<body>
+  <div class="result-container">
+    <h4 class="result-title">Your Result</h4>
+    <div class="result-number-container">
+      <h1 class="result-number">76</h1>
+      <p class="max-result">of 100</p>
+    </div>
+    <div class="result-description-container">
+      <h3 class="result-status">Great</h3>
+        <p class="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+  </div>
+  <div class="summary-container">
+    <h3 class="summary-title"> Summary </h3>
+    <div class="reaction-container">
+      <div class="reaction">
+        <img id="reaction-icon" src=" " alt="reaction-icon">
+        <p class="reaction-title" id="reaction-category"></p>
+      </div>
+      <div class="reaction-result-container">
+        <p class="reaction-result" id="reaction-score"></p>
+        <p class="reaction-max-result"> / 100</p>
+      </div>
+    </div>
+    <div class="memory-container">
+      <div class="memory">
+        <img src="" alt="memory-icon" id="memory-icon">
+        <p class="memory-title" id="memory-category"></p>
+      </div>
+      <div class="memory-result-container">
+        <p class="memory-result" id="memory-score"></p>
+        <p class="memory-max-result"> / 100</p>
+      </div>
+    </div>
+    <div class="verbal-container">
+      <div class="verbal">
+        <img src="" id="verbal-icon" alt="verbal-icon">
+        <p class="verbal-title" id="verbal-category"></p>
+      </div>
+      <div class="verbal-result-container">
+        <p class="verbal-result" id="verbal-score"></p>
+        <p class="verbal-max-result"> / 100</p>
+      </div>
+    </div>
+    <div class="visual-container">
+      <div class="visual">
+        <img src="" id="visual-icon" alt="visual-icon" >
+        <p class="visual-title" id="visual-category"></p>
+      </div>
+      <div class="visual-result-container">
+        <p class="visual-result" id='visual-score'></p>
+        <p class="visual-max-result"> / 100</p>
+      </div>
+    </div>
+    <div class="continue-button-container">
+      <button class="continue-button">Continue</button>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Airton Douglas</a>.
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+
+
+
+</html>

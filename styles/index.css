@@ -1,0 +1,23 @@
+:root {
+    --font: 'Hanken Grotesk';
+    /*primary*/
+    --lred: hsl(0, 100%, 67%);
+    --lredt: hsla(0,100%,67%,0.1);
+    --orangey: hsl(39, 100%, 56%);
+    --orangeyt: hsla(39, 100%, 56%,0.1);
+    --greent: hsl(166, 100%, 37%);
+    --greentt: hsla(166, 100%, 37%,0.1);
+    --cblue: hsl(234, 85%, 45%);
+    --cbluet: hsla(234, 85%, 45%,0.1);
+    /*gradients*/
+    --rescolor1: hsl(252, 100%, 67%);
+    --rescolor2: hsl(241, 81%, 54%);
+    --circlecolor1: hsla(256, 72%, 46%, 1);
+    --circlecolor2: hsla(241, 72%, 46%, 0);
+    /*neutral*/
+    --white: hsl(0,0%,100%);
+    --pblue: hsl(221, 100%, 96%);
+    --lavender: hsl(241, 100%, 89%);
+    --darkblue: hsl(224, 30%, 27%);
+    --darkbluet: hsla(224, 30%, 27%,0.4); 
+}
